@@ -21,7 +21,7 @@ want_clean=0
 want_reconfigure=0
 wasi_sdk_path="${WASI_SDK_PATH:-}"
 build_dir="$MCPONE_DIR/.build/sqlite-wasi-cli"
-out_file="$MCPONE_DIR/out/sqlite3-cli.wasm"
+out_file="$MCPONE_DIR/out/sqlite3.wasm"
 flavor="full"
 
 while [[ $# -gt 0 ]]; do

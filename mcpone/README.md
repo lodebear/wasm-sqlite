@@ -18,7 +18,7 @@ make -f mcpone/Makefile wasm-cli
 
 Output:
 
-- `mcpone/out/sqlite3-cli.wasm`
+- `mcpone/out/sqlite3.wasm`
 
 All intermediate build artifacts go under `mcpone/.build/` and are ignored via `mcpone/.gitignore`.
 
